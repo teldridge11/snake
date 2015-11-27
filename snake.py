@@ -1,17 +1,9 @@
-# SNAKE: THE GAME
 import pygame
 import time
 import random
 import os
 
-# Initialize Pygame
 pygame.init()
-
-# Colors
-white = (255,255,255)
-black = (0,0,0)
-red = (255,0,0)
-green = (0,155,0)
 
 # Display
 display_width = 800
@@ -21,6 +13,12 @@ pygame.display.set_caption('Slither')
 icon = pygame.image.load('apple.bmp')
 pygame.display.set_icon(icon)
 clock = pygame.time.Clock()
+
+# Colors
+white = (255,255,255)
+black = (0,0,0)
+red = (255,0,0)
+green = (0,155,0)
 
 # Sprites
 snakeHead = pygame.image.load('snakehead.bmp')
